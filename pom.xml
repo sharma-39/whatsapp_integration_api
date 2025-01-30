@@ -34,6 +34,18 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.13</version> <!-- You can update the version -->
+		</dependency>
+
+		<!-- Apache HttpComponents HttpMime (for multipart support) -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpmime</artifactId>
+			<version>4.5.13</version> <!-- You can update the version -->
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

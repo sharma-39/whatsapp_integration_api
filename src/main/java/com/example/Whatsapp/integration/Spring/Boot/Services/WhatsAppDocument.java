@@ -6,15 +6,11 @@ import lombok.Data;
 public class WhatsAppDocument {
     private String link;
     private String filename;
-    private String caption;
+    private String id;
 
 
-    public WhatsAppDocument(String url, String s) {
-        this.link=url;
-        this.filename=s;
-    }
-
-    public WhatsAppDocument() {
-
+    public WhatsAppDocument(String mediaId,String filename) {
+        this.id=mediaId;
+        this.filename=filename;
     }
 }
