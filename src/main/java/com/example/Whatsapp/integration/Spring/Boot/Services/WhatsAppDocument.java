@@ -9,4 +9,12 @@ public class WhatsAppDocument {
     private String caption;
 
 
+    public WhatsAppDocument(String url, String s) {
+        this.link=url;
+        this.filename=s;
+    }
+
+    public WhatsAppDocument() {
+
+    }
 }
