@@ -69,6 +69,13 @@ public class WhatsAppController {
             throw new RuntimeException(e);
         }
     }
+    @PostMapping("/hyberlink-message")
+    public String hyberlinkMessage(@RequestParam String toNumber) {
+        whatsAppService.sendTemplateMessage(toNumber);
+        return "Message sent";
+    }
+
+
 
 
 }
