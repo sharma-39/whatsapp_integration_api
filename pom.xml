@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>Whatsapp-integration-Spring-Boot</artifactId>
+	<artifactId>whatsapp_integration_api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Whatsapp-integration-Spring-Boot</name>
 	<description>Demo project for Spring Boot</description>
